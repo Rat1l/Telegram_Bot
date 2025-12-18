@@ -1,1 +1,1 @@
-8244420887:AAHlgobGLf3BHSfks0_G19EPVy9_89OLRNo pyinstaller --onefile --noconsole --icon=icon.ico main.py
+
