@@ -25,9 +25,9 @@ def add_to_startup(exe_path=None):
     with open(shortcut_path, 'w') as file:
         file.write(f'start "" "{exe_path}"')
     return True
-TOKEN = "8244420887:AAHlgobGLf3BHSfks0_G19EPVy9_89OLRNo"
+TOKEN = 
 bot = telebot.TeleBot(TOKEN)
-ADMIN_CHAT_ID = 6311907823
+ADMIN_CHAT_ID =
 if add_to_startup():
     bot.send_message(ADMIN_CHAT_ID, "Додано в автозапуск.")
 bot.send_message(ADMIN_CHAT_ID, "✅ Бот запущений і працює!")
@@ -248,4 +248,5 @@ def my_function(message):
 def shutdown_pc(message):
     bot.reply_to(message, "⚠️ Комп'ютер буде вимкнено через 20 секунд!")
     os.system("shutdown /s /t 20")
+
 bot.polling()
